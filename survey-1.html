@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey page 1</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+  </head>
+  <body>
+    <h1>UIowa Student Lifestyle Survey</h1>
+    <img src="./images/iowa.jpg" alt="Iowa Campus" width="250" height="200">
+    <div class="form-control">
+        <label for="name" id="label-name">
+          Name (required)
+        </label>
+        <input type="text" id="name" placeholder="Enter your name" required autofocus />
+    </div>
+    <div class="form-control">
+        <label for="gender" id="label-gender">
+          Gender
+        </label>
+        <input type="text" id="gender" placeholder="Enter your gender" />
+    </div>
+    <div class="form-control">
+        <label for="grade" id="label-grade">
+            <a href="#" title="This helps us pull statistics from the survey by grade.">When are you graduating/what grade are you in?</a>
+        </label>
+        <select name="grade" id="grade">
+          <option value="freshman">Freshman, Class of 2026</option>
+          <option value="sophomore">Sophomore, Class of 2025</option>
+          <option value="junior">Junior, Class of 2024</option>
+          <option value="senior">Senior, Class of 2023</option>
+        </select>
+      </div>
+      <button onclick="window.location.href='./survey-2.html';">
+        Next page
+      </button>
+    </body>
+    </p>
+    <p>page 1 of 2</p>
+  </body>
+</html>
