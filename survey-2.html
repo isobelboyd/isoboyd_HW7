@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey page 2</title>
     <link rel="stylesheet" href="./css/stylesheet.css">
   </head>
   <body>
     <h1>UIowa Student Lifestyle Survey</h1>
+    <form action="#" method="post">
     <div class="form-control">
         <label id="label-rating">
           Do you enjoy your work-life balance at the University of Iowa? 
@@ -18,12 +19,10 @@
         <label for="rating-1" id="label-rating-1">
           <input type="radio" id="rating-1" name="rating">
             1
-          </input>
         </label>
         <label for="rating-2" id="label-rating-2">
           <input type="radio" id="rating-2" name="rating">
             2
-          </input>
         </label>
         <label for="rating-3" id="label-rating-3">
             <input type="radio" id="rating-3" name="rating">
@@ -42,37 +41,37 @@
         <label>What did you like about the UIowa?</label>
         <a href="#" class="tip">Why we ask this.<span>This helps us gather more insight into student's lives.</span></a>
         <br>
-        <label for="inp-1">
-          <input type="checkbox" name="inp">Class Options</input>
+        <label for="inp-1" id="label-inp-1">
+          <input type="checkbox" id="inp-1" name="inp">Class Options
         </label>
         <br>
-        <label for="inp-2">
-          <input type="checkbox" name="inp">Sporting Events</input>
+        <label for="inp-2" id="label-inp-2">
+          <input type="checkbox" id="inp-2" name="inp">Sporting Events
         </label>
         <br>
-        <label for="inp-3">
-          <input type="checkbox" name="inp">Extracurricular Options</input>
+        <label for="inp-3" id="label-inp-3">
+          <input type="checkbox" id="inp-3" name="inp">Extracurricular Options
         </label>
         <br>
-        <label for="inp-4">
-          <input type="checkbox" name="inp">Drinking At Bars</input>
+        <label for="inp-4" id="label-inp-4">
+          <input type="checkbox" id="inp-4" name="inp">Drinking At Bars
         </label>
         <br>
-        <label for="inp-5">
-          <input type="checkbox" name="inp">Meeting New People</input>
+        <label for="inp-5" id="label-inp-5">
+          <input type="checkbox" id="inp-5" name="inp">Meeting New People
         </label>
       </div>
       <div class="form-control">
         <label for="comment">
           What kind of things do you do outside of school?
         </label>
-        <textarea name="comment" id="comment" placeholder="Enter your comment here" required>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here" required autofocus>
         </textarea>
     </div>
+</form>
       <button onclick="window.location.href='./thank-you.html';">
         Submit survey
       </button>
-    </p>
     <p>page 2 of 2</p>
   </body>
 </html>
