@@ -1,2 +1,11 @@
 # isoboyd_HW7
 HTML web form
+Project Description:
+This project was my first attempt at creating a web form using HTML and CSS. The project also taught us how to make our code and site accessibly and inclusive for all users.
+
+Use of Best Practices:
+The first step in making sure my code was accessible and inclusive was going to lecture and learning about all the different ways and recommendations for being inclusive. When building out a form the first thing to consider is do questions like are asking for people's gender, race, or ethinicity pertinant to the form. If including these questions for users is not necessary than do not collect it. If you do need to collect this kind of information from users make sure to include several options as one to two options are not applicable to everyone. The next thing to do is look at experts within the organization or profession to seek their reccomendations, for example the U.S. Cheif Statistician recommends using multi-select checkboxes and/or text input when collecting information.
+
+Another best practice when creating a web form is to learn and follow accessibility principles. There are several websites that give examples, sample code and break down the reasoning behing these accessibility accomidations. The four principles for accessibility are perceivable things (sight, hearing, touch), operable things (compatiblity with keyboards, mouses, voice control and other devices), understandable (easy for users to comprehend), and robust (use across browser, assistive tech). 
+
+When completeing this web form I started by creating the webite based on examples and built out a simple survey that some users could use. I used autofocus so that the site auto focuses on a specific question once the page loads. Next I made the gender question a text input so people can fill in whatever they want. After running it through a HTML and CSS validator I ran the code through a code accessibility (WCAG 2.1, level AA) validator and took the recommendations they gave and made the needed changes. My web form now accounts for accessibility and all users can use it.  
